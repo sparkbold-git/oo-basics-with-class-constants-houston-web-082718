@@ -16,5 +16,8 @@ class Shoe
   end
   
   def brand=(brands_array)
+    BRANDS = brands_array.uniq
+  end
+    
 
 end
