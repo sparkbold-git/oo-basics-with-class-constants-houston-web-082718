@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     brands_array << brand
-    BRANDS = brands_array.uniq
+
   end
 
   def cobble
@@ -15,5 +15,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  def brand=(brands_array)
 
 end
