@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    brands_array << brand
+    BRANDS << brand
 
   end
 
@@ -16,7 +16,7 @@ class Shoe
   end
   
   def brand=(brands_array)
-    BRANDS = brands_array.uniq
+    BRANDS.uniq
   end
     
 
